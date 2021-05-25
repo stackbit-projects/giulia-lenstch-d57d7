@@ -27,10 +27,10 @@ function HomePageContainer() {
         <DescriptionCard />
       </div>
       <div className="item2">
-        <Image withFrame fluid={data.allFile.edges[0].node.childImageSharp.fluid} />
+        {/* <Image withFrame fluid={data.allFile.edges[0].node.childImageSharp.fluid} /> */}
+        <iframe data-ready="true">
+	    </iframe>
       </div>
-      <iframe data-ready="true">
-	  </iframe>
     </div>
   )
 }
