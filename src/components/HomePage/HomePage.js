@@ -52,7 +52,7 @@ function test(){
 	'https://player.vimeo.com/video/549823097?muted=1&autoplay=1&autopause=0&controls=0&app_id=122963',
 	'https://player.vimeo.com/video/549822379?muted=1&autoplay=1&autopause=0&controls=0&app_id=122963',
 	'https://player.vimeo.com/video/549821794?muted=1&autoplay=1&autopause=0&controls=0&app_id=122963'
-],
+    ],
     video = document.querySelector('iframe'),
     // choose one random url from our storage as the active video
     activeVideoUrl = videoStorage[Math.round(Math.random() * (videoStorage.length - 1))];        
