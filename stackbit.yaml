@@ -1,0 +1,22 @@
+stackbitVersion: ~0.3.0
+ssgName: gatsby
+publishDir: public
+dataDir: src/components/CollectionPage
+models:
+  collections:
+    type: data
+    label: Collections
+    file: collections.json
+    fields:
+      - type: list
+        name: pages
+        label: Pages
+        items:
+          type: object
+          fields:
+            - type: string
+              name: title
+              label: Title
+            - type: string
+              name: description
+              label: Description
