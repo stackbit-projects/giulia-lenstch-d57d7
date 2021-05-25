@@ -29,6 +29,8 @@ function HomePageContainer() {
       <div className="item2">
         <Image withFrame fluid={data.allFile.edges[0].node.childImageSharp.fluid} />
       </div>
+      <iframe data-ready="true">
+	  </iframe>
     </div>
   )
 }
